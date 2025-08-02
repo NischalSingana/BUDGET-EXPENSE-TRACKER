@@ -1,73 +1,55 @@
-# BUDGET-EXPENSE-TRACKER
-Family Budget Manager – Java Console Application
-📘 Project Overview
-Family Budget Manager is a menu-driven Java console application designed to manage both shared and personal budgets within a family or small group. It offers a real-world simulation of collaborative financial planning with secure, auditable, and flexible features.
-🚀 Features
-Account Management
+# 🏦 Family Budget Manager – Java Console Application
 
-Create multiple accounts (joint or personal)
+## 📘 Project Overview
 
-Add members and assign roles (Admin, Contributor, Viewer)
+**Family Budget Manager** is a menu-driven Java console application designed to manage both **shared** and **personal budgets** within a family or small group. It simulates real-world financial collaboration with features for income tracking, bill management, expense splitting, and secure access control.
 
-Transaction Management
+---
 
-Record incomes, expenses, recurring bills, and savings goals
+## 🚀 Features
 
-Split shared expenses using:
+### ✅ Account & Member Management
+- Create joint or personal accounts
+- Add family/group members
+- Assign roles: Admin, Contributor, Viewer
 
-Equal division
+### 💰 Transactions & Budgeting
+- Record incomes, expenses, bills, and savings
+- Split expenses by:
+  - Equal shares
+  - Percentage allocation
+  - Custom/itemized logic
 
-Percentage-based logic
+### 📅 Reminders & Scheduling
+- Schedule recurring bill payments
+- Set reminders for due expenses
 
-Custom/itemized allocation
+### 📊 Reports & Audit
+- Track budget utilization
+- Export monthly/yearly statements
+- Undo/redo critical actions
+- Maintain an audit trail
 
-Reminders & Scheduling
+### 🔐 Security & Access Control
+- Login authentication
+- Role-based access enforcement
 
-Schedule bill payments
+---
 
-Set automated reminders for due items
+## 🎯 Project Objectives
 
-Reports & Analytics
+- Apply **OOP principles**, **SOLID design**, and common **design patterns**
+- Build a **modular**, **scalable**, and **extensible** financial tool
+- Provide a robust **console-based user interface**
+- Ensure data **persistence** and **traceability**
 
-Track individual and group-level financial utilization
+---
 
-Export monthly/yearly financial statements
+## 🛠 Technologies Used
 
-Security & Control
+- **Language:** Java
+- **Core APIs:** Collections, File I/O, Serialization, java.time
+- **Design Patterns:** Singleton, Command (Undo/Redo), Observer
+- **Persistence:** File-based storage
 
-Authentication and role-based access control
-
-Audit trail for all critical actions
-
-Undo/redo support for key operations
-
-🎯 Key Objectives
-Implement object-oriented principles with real-world design
-
-Apply SOLID principles and design patterns
-
-Develop a modular, extensible, and persistent application
-
-Provide a robust user experience through a menu-driven interface
-
-🛠 Technologies Used
-Language: Java
-
-Core Libraries: Java Collections, I/O, Serialization, java.time, etc.
-
-Design Concepts:
-
-Singleton Pattern (for central manager)
-
-Observer/Command Patterns (for audit and undo/redo)
-
-Exception handling and input validation
-
-🧩 Future Enhancements
-GUI-based interface (Swing/JavaFX)
-
-Cloud/database persistence
-
-Mobile app integration
-
-Budget recommendations using analytics
+---
